@@ -1,0 +1,76 @@
+body
+{
+    width:80% ;
+    margin:0px auto;
+}
+#container
+{
+    text-align: center;
+    border:3px solid blue ;
+    height:500px ;
+  padding-top:150px ;
+}
+#container:hover
+{
+    background-color: black;
+    color:blue ;
+}
+.pagination
+{
+    display:inline-block ;
+    height:50px ;
+    margin-left:450px ;
+    margin-top: 25px;
+    clear: both;
+}
+.pagination a
+{
+    text-decoration: none;
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+}
+.pagination a:hover
+{
+    text-decoration: none;
+    padding:10px 12px;
+    background-color: black;
+    color:gold;
+}
+#footer
+{
+    background-color: brown;
+    height:40px ;
+    clear: both;
+    
+}
+#footer ul
+{
+    float: left;
+    text-decoration: none;
+    margin-top:11px ;
+}
+#footer ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-size:20px ;
+   
+}
+#footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#footer ul li a:hover
+{
+    color: aliceblue;
+}
+#footer p
+{
+    
+    color: black;
+   float: right;
+   margin-top: 11px; 
+  
+}

@@ -1,0 +1,179 @@
+body
+{
+    width:80% ;
+    margin:0px auto;
+}
+#header
+{
+    background-color:gray ;
+    height:40px ;
+}
+#header h1
+{
+    text-align: center;
+}
+#nav
+{
+    background-color: red;
+    height:70px ;
+    overflow: hidden;
+
+}
+#nav ul
+{
+    float: right;
+    text-decoration: none;
+    margin-top:30px ;
+}
+#nav ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-size:20px ;
+   
+}
+#nav ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#nav ul li a:hover
+{
+    color: aqua;
+}
+#banner
+{
+   
+    height:400px ;
+    overflow: hidden;
+}
+#intro
+{
+    background-color: black;
+    height:340px ;
+    overflow: hidden;
+}
+#intro h1
+{
+    text-align: center;
+}
+#intro p
+{
+text-transform: capitalize;
+line-height:1.8 ;
+margin-left:40px ;
+font-size:20px ;
+letter-spacing:2px ;
+color: gold;
+
+
+}
+#content1
+{
+    background-color:green ;
+    height:330px ;
+    width:32% ;
+    overflow: hidden;
+    float: left;
+    margin-right:2% ;
+}
+#content1 p
+{
+text-transform: capitalize;
+line-height:1.5 ;
+margin-left:30px ;
+font-size:18px ;
+letter-spacing:1px ;
+}
+#content2
+{
+    background-color:slateblue ;
+    height:330px ;
+    width:32% ;
+    overflow: hidden;
+    float: left;
+    margin-right:2% ;
+}
+#content2 p
+{
+text-transform: capitalize;
+line-height:1.5 ;
+margin-left:30px ;
+font-size:18px ;
+letter-spacing:1px ;
+}
+#content3
+{
+    background-color:orange ;
+    height:330px ;
+    width:32% ;
+    overflow: hidden;
+    float: right;
+}
+#content3 p
+{
+text-transform: capitalize;
+line-height:1.5 ;
+margin-left:30px ;
+font-size:18px ;
+letter-spacing:1px ;
+}
+.pagination
+{
+    display:inline-block ;
+    height:50px ;
+    margin-left:450px ;
+    margin-top: 25px;
+    clear: both;
+}
+.pagination a
+{
+    text-decoration: none;
+    padding:10px 12px;
+    background-color: lightgrey;
+    color:black;
+}
+.pagination a:hover
+{
+    text-decoration: none;
+    padding:10px 12px;
+    background-color: black;
+    color:gold;
+}
+#footer
+{
+    background-color: brown;
+    height:40px ;
+    clear: both;
+    
+}
+#footer ul
+{
+    float: left;
+    text-decoration: none;
+    margin-top:11px ;
+}
+#footer ul li
+{
+    display: inline;
+    margin-right: 30px;
+    font-size:20px ;
+   
+}
+#footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+#footer ul li a:hover
+{
+    color: aliceblue;
+}
+#footer p
+{
+    
+    color: black;
+   float: right;
+   margin-top: 11px; 
+  
+}
